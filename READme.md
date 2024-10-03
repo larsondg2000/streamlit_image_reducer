@@ -1,6 +1,6 @@
-# Simple Image Resizer using Streamlit
+## Simple Image Resizer using Streamlit
 
 - **Resizes .jpg, .jpeg, and .png images** 
+- **Max width is adjustable (default is 800)**
+- **Option to download image**
 - **Saves image as a .png**
-- **Option to downloads image**
-- **Max width is set to 800 (you can adjust if desired)**
