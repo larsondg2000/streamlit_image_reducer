@@ -25,11 +25,11 @@ def main():
 
     uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg", "jpeg"])
 
-    max_size_options = list(range(400, 801, 100))
+    max_size_options = list(range(800, 99, -100))
     max_size = st.selectbox(
         "Select maximum image dimension",
         options=max_size_options,
-        index=4,  # Default to 800
+        index=0,  # Default to 800
         help="The maximum width or height (in pixels) of the resized image. The image will be scaled proportionally so that neither dimension exceeds this value."
     )
 
